@@ -4,9 +4,11 @@ import initialState from './initialState';
 
 
 export default function ConverterReducer(state = initialState.converter, action) {
+  let converted;
   switch (action.type) {
     case SET_COORDINATES:
-      let converted = convert(action.coordinates);
+      converted = convert(action.coordinates);
+
       if (converted) {
         return  {
           input: action.coordinates,

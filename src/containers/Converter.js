@@ -8,8 +8,8 @@ import IconButton from 'material-ui/IconButton';
 import GPSFixed from 'material-ui/svg-icons/device/gps-fixed';
 
 import * as actions from '../actions/converterActions';
-import ReactMapboxGl, {Popup} from "react-mapbox-gl";
-import MapboxCSS from "react-mapbox-gl/dist/mapbox-css/mapbox-gl.css";
+import ReactMapboxGl, {Popup} from "react-mapbox-gl"; // eslint-disable-line
+import MapboxCSS from "react-mapbox-gl/dist/mapbox-css/mapbox-gl.css"; // eslint-disable-line
 
 
 const mapStyle = {
